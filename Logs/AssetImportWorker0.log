@@ -1,63 +1,63 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.1; Version 2004; 64bit' Language: 'en' Physical Memory: 16261 MB
+OS: 'Windows 10 Enterprise; OS build 17763.1039; Version 1809; 64bit' Language: 'en' Physical Memory: 16283 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Users\benmb\OneDrive\Desktop\Important Programs\Unity\2020.2.2f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/benmb/OneDrive/Documents/Unity/CarnivalAttemptV3Benji
+C:/Users/bmb19a/Documents/GitHub/CarnivalAttemptV3Benji
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62937
-Successfully changed project path to: C:/Users/benmb/OneDrive/Documents/Unity/CarnivalAttemptV3Benji
-C:/Users/benmb/OneDrive/Documents/Unity/CarnivalAttemptV3Benji
+62426
+Successfully changed project path to: C:/Users/bmb19a/Documents/GitHub/CarnivalAttemptV3Benji
+C:/Users/bmb19a/Documents/GitHub/CarnivalAttemptV3Benji
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.99 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.75 ms.
+Refreshing native plugins compatible for Editor in 41.08 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.55 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/benmb/OneDrive/Documents/Unity/CarnivalAttemptV3Benji/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bmb19a/Documents/GitHub/CarnivalAttemptV3Benji/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   27.21.14.5763
+    VRAM:     8088 MB
+    Driver:   26.21.14.4166
 Initialize mono
-Mono path[0] = 'C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Users/benmb/OneDrive/Desktop/Important Programs/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002345 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002713 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.61 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 33.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.800 seconds
+- Completed reload, in  3.024 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001684 seconds.
+Registered in 0.003521 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.13 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 40.05 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -66,199 +66,197 @@ RoslynAnalysisRunner has terminated.
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\benmb\OneDrive\Documents\Unity\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\benmb\OneDrive\Documents\Unity\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
+- Completed reload, in  1.073 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Unloading 1631 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.4 MB.
 System memory in use after: 74.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2075.
-Total: 2.064000 ms (FindLiveObjects: 0.165400 ms CreateObjectMapping: 0.067900 ms MarkObjects: 1.759000 ms  DeleteObjects: 0.070800 ms)
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2077.
+Total: 3.078400 ms (FindLiveObjects: 0.469700 ms CreateObjectMapping: 0.143400 ms MarkObjects: 2.365600 ms  DeleteObjects: 0.097300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/BenjimanCarnival/Materials/Green.mat
-  artifactKey: Guid(f984b60d29d1bcd45b102e54c7fddaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Materials/Green.mat using Guid(f984b60d29d1bcd45b102e54c7fddaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c78c0b36fdd7155b6812d4531dacc0') in 0.099769 seconds
-  Import took 0.102170 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c3ab6b558fa7fe7c42e9a55a892947') in 0.040579 seconds
+  Import took 0.043192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/BenjimanCarnival/Materials/Red.mat
-  artifactKey: Guid(6a2e776661b0c464b8d20e9ed62aabc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Materials/Red.mat using Guid(6a2e776661b0c464b8d20e9ed62aabc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47ccf2650fc5852e2fadf8ce3d6c90') in 0.009590 seconds
-  Import took 0.011934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/BenjimanCarnival
-  artifactKey: Guid(116f41cee3537c549b32477729b20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival using Guid(116f41cee3537c549b32477729b20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b8658fa72e0add3aa3f4a52c2ce8c9') in 0.001922 seconds
-  Import took 0.004352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/BenjimanCarnival/BMBScripts
-  artifactKey: Guid(d8f222a8f89eac04399ff622629ae0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/BMBScripts using Guid(d8f222a8f89eac04399ff622629ae0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d143d143a4f0a14242d89a324c5b400') in 0.001789 seconds
-  Import took 0.004435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/BenjimanCarnival/Materials/Blue.mat
-  artifactKey: Guid(b584c45fe01fef64d8864e1bbfa05789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Materials/Blue.mat using Guid(b584c45fe01fef64d8864e1bbfa05789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db56ca982d07d659e2cfad6b308e4a7') in 0.014194 seconds
-  Import took 0.016429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.580260 seconds.
-  path: Assets/BenjimanCarnival/Scenes/BenjiCarnivalSuccess.unity
-  artifactKey: Guid(cd7a22df27580704b82857e84397acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Scenes/BenjiCarnivalSuccess.unity using Guid(cd7a22df27580704b82857e84397acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0802cece76b9e2d11aa49b53952fd74a') in 0.002424 seconds
-  Import took 0.005264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.278850 seconds.
-  path: Assets/BenjimanCarnival/Models
-  artifactKey: Guid(9ed6910274fcec54685981ab40ef29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models using Guid(9ed6910274fcec54685981ab40ef29ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c5f33dabbe08de92b8c1730fbf89e2') in 0.003870 seconds
-  Import took 0.006149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.604756 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f9a2444035df4fd46af628839f5331') in 0.071378 seconds
-  Import took 0.073747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039161 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f9a2444035df4fd46af628839f5331') in 0.019909 seconds
-  Import took 0.022253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023152 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx
-  artifactKey: Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx using Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0f0314c6817a18369c2113a16129dc') in 0.038876 seconds
-  Import took 0.041358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx
-  artifactKey: Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx using Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16beb7a45a57661f463c1df2fedd8f6b') in 0.176187 seconds
-  Import took 0.178343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.852141 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89d29d987245b441d6208759b669c64') in 0.026336 seconds
-  Import took 0.028845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.962603 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbacf55a91c80494d2dbeb78aabba5d3') in 0.039351 seconds
-  Import took 0.041685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.450478 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6940b1f8daf73b02e26bf8741508545a') in 0.034294 seconds
-  Import took 0.036607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.738771 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5f00fc5b6b1b16199c6b835b5f0cf') in 0.031471 seconds
-  Import took 0.034183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.955075 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx
-  artifactKey: Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterGunV3.fbx using Guid(a69d2158d18995247bb3417367717da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81218a7f0530b3e65ef8f94c4e5ebf3') in 0.032354 seconds
-  Import took 0.034738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.818280 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx
-  artifactKey: Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx using Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb905cdce6dd573e0a5c94f905687f8') in 0.038833 seconds
-  Import took 0.041366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.690243 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx
-  artifactKey: Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBWaterContainerV1.fbx using Guid(ad49134323a56e54b80bb432f7188e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f9fe0fe3d2111b35142558c626c129') in 0.021955 seconds
-  Import took 0.024874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.507253 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx
-  artifactKey: Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx using Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83548ab3a838b99f1dd7a670a3d33b28') in 0.026388 seconds
-  Import took 0.030040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.825174 seconds.
-  path: Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx
-  artifactKey: Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/Models/BMBScoreboardV1.fbx using Guid(43f19c8ffe5410848b2a388889584fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd497f52f6fa416595dfe39ac4cb62db1') in 0.038626 seconds
-  Import took 0.040992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 342.709146 seconds.
+  Time since last request: 3.402026 seconds.
   path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
   artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e903585d224e9c518688308a21d1494') in 0.017489 seconds
-  Import took 0.020703 seconds .
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c427045db9b3cb989fae4b4b67c753') in 0.075636 seconds
+  Import took 0.078986 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 45.4 MB.
+System memory in use after: 45.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 3.033000 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.603100 ms  DeleteObjects: 0.032500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001832 seconds.
+  Time since last request: 2.813351 seconds.
   path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
   artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e903585d224e9c518688308a21d1494') in 0.011115 seconds
-  Import took 0.014264 seconds .
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15877e316a21232c15a1e4ca21628ac8') in 0.013899 seconds
+  Import took 0.016611 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004393 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 1616 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 3.472200 ms (FindLiveObjects: 0.404300 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.909600 ms  DeleteObjects: 0.059200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 94.348498 seconds.
+  path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
+  artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673faf021cf5cae981501df8605e5fc2') in 0.390118 seconds
+  Import took 0.393199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.530817 seconds.
+  path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
+  artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf232f7cfd3b93cc75cc17a90b35daa9') in 0.015589 seconds
+  Import took 0.019074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020207 seconds.
+  path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
+  artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72dcdb2a2796778e04367272e435d11') in 0.014454 seconds
+  Import took 0.017813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.881 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1616 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 2.025000 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.701600 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 95.341380 seconds.
+  path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
+  artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56d9061fc2002a87b5b2de0f6628dea') in 0.059593 seconds
+  Import took 0.062268 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bmb19a\Documents\GitHub\CarnivalAttemptV3Benji\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1616 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2095.
+Total: 1.846700 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.606700 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 53.035116 seconds.
+  path: Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab
+  artifactKey: Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d44994b536a3367a64551019a6ea73') in 0.056961 seconds
+  Import took 0.060154 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

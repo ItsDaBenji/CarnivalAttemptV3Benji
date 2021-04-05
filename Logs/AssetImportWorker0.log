@@ -261,3 +261,4 @@ Received Import Request.
 Start importing Assets/BenjimanCarnival/BMBPrefabs/BMBWaterContainerV1.prefab using Guid(dcaf3e808f1bf04419153e0c4ea41c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e903585d224e9c518688308a21d1494') in 0.011115 seconds
   Import took 0.014264 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

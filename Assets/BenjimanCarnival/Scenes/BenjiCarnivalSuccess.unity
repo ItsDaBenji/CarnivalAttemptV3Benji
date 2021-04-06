@@ -907,6 +907,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1062547283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062547284}
+  m_Layer: 0
+  m_Name: Spawnpoint 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062547284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062547283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.72, y: -1.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1611745894}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1102340443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,6 +1231,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.11206958, y: 0.30136028, z: 0.43880934}
   m_Center: {x: -0.00007954985, y: -0.09656747, z: -0.16942227}
+--- !u!1 &1215968415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215968416}
+  m_Layer: 0
+  m_Name: Spawnpoint 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215968416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215968415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.43, y: -1.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1611745894}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1297830549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,14 +2283,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b5c1fba866b13498ee034ac7598d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoints:
-  - {fileID: 666092469}
-  - {fileID: 204681774}
-  - {fileID: 691174885}
-  - {fileID: 1102340444}
+  posOne: {fileID: 666092469}
+  posTwo: {fileID: 204681774}
+  posThree: {fileID: 691174885}
+  posFour: {fileID: 1102340444}
+  posFive: {fileID: 1215968416}
+  posSix: {fileID: 1062547284}
+  spawnpoints: []
   canisterPrefabs:
-  - {fileID: 7092320630570208559, guid: dcaf3e808f1bf04419153e0c4ea41c91, type: 3}
-  spawnTime: 20
+  - {fileID: 6127686316246982064, guid: 2a34677f181cc704c93271f6b1f1faae, type: 3}
+  - {fileID: 4579815111519400172, guid: df3a25dc79767904db0eabc76231c5bc, type: 3}
+  - {fileID: 3109717789510792698, guid: c6c37204b34f132478ebaf9858809bd1, type: 3}
+  spawnTime: 5
 --- !u!4 &1611745894
 Transform:
   m_ObjectHideFlags: 0
@@ -2246,6 +2310,8 @@ Transform:
   - {fileID: 204681774}
   - {fileID: 691174885}
   - {fileID: 1102340444}
+  - {fileID: 1215968416}
+  - {fileID: 1062547284}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

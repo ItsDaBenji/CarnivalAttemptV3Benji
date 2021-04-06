@@ -17,9 +17,23 @@ public class BMBGameManager : MonoBehaviour
 
     public Text scoreText;
 
+    public float timeLeft;
+
+    public Text timeText;
+
     private void Update()
     {
         scoreText.text = "Score: " + score;
+        if (timeLeft < 0)
+        {
+            timeLeft -= Time.deltaTime;
+            timeText.text = "Time: " + (int)timeLeft;
+        }
+        else
+        {
+            timeText.text = "Time: 0";
+            Time.timeScale = 0;
+        }
     }
 
 }

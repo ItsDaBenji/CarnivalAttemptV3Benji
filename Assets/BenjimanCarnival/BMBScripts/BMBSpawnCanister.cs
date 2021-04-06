@@ -22,21 +22,24 @@ public class BMBSpawnCanister : MonoBehaviour
         spawnpoints.Add(posFive);
         spawnpoints.Add(posSix);
 
-        InvokeRepeating("SpawnCanisterTimer", 1, 10);
+        InvokeRepeating("SpawnCanisterTimer", 1, spawnTime);
     }
 
     private void SpawnCanisterTimer()
     {
         int randPrefab = Random.Range(0, canisterPrefabs.Length);
         int randPos = Random.Range(0, spawnpoints.Count);
-        Instantiate(canisterPrefabs[randPrefab], spawnpoints[randPos].position, Quaternion.Euler(90, 0, 0));
-        StartCoroutine(AddPosBack(spawnpoints[randPos]));
-        spawnpoints.Remove(spawnpoints[randPos]);
+        if(randPos < spawnpoints.Count)
+        {
+            Instantiate(canisterPrefabs[randPrefab], spawnpoints[randPos].position, Quaternion.Euler(90, 0, 0));
+            StartCoroutine(AddPosBack(spawnpoints[randPos]));
+            spawnpoints.Remove(spawnpoints[randPos]);
+        }
     }
 
     private IEnumerator AddPosBack(Transform removedPos)
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(spawnTime);
         spawnpoints.Add(removedPos);
     }
 

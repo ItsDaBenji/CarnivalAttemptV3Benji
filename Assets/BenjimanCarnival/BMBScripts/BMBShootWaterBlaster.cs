@@ -8,7 +8,17 @@ public class BMBShootWaterBlaster : MonoBehaviour
     [SerializeField] Transform raySpawn;
     [SerializeField] float rayDistance;
 
-    public void ShootWater()
+    bool canShoot;
+
+    private void Update()
+    {
+        if (canShoot)
+        {
+            ShootWater();
+        }
+    }
+
+    private void ShootWater()
     {
         RaycastHit hitInfo;
 
@@ -27,4 +37,9 @@ public class BMBShootWaterBlaster : MonoBehaviour
         }
     }
 
+
+    public void ChangeBool(bool shoot)
+    {
+        canShoot = shoot;
+    }
 }
